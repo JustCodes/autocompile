@@ -1,0 +1,29 @@
+{
+  "name": "delphi",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "ID": {
+      "type": "number",
+      "id": true,
+      "required": true,
+      "index": true
+    },
+    "nome": {
+      "type": "string",
+      "required": true
+    },
+    "pathCompiler": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}

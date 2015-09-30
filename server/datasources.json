@@ -1,0 +1,14 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "SQLServer": {
+    "host": "fernando\\sqlexpress",
+    "database": "PROJETOS",
+    "password": "XPT2000",
+    "name": "SQLServer",
+    "connector": "mssql",
+    "user": "sa"
+  }
+}
