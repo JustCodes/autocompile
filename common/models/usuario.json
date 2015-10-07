@@ -1,0 +1,27 @@
+{
+  "name": "usuario",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "nome": {
+      "type": "string",
+      "required": true
+    },
+    "sobrenome": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "projetos": {
+      "type": "hasMany",
+      "model": "projeto",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
